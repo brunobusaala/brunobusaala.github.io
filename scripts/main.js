@@ -48,10 +48,10 @@ myV.textContent = multiply(500, 2, 7);
 
 myImage.onclick = () => {
   const mySrc = myImage.getAttribute("src");
-  if (mySrc === "images/firefox-icon.png") {
-    myImage.setAttribute("src", "images/manchestor.png");
+  if (mySrc === "images/manchestor.png") {
+    myImage.setAttribute("src", "images/stoke.png");
   } else {
-    myImage.setAttribute("src", "images/firefox-icon.png");
+    myImage.setAttribute("src", "images/manchestor.png");
   }
 };
 
